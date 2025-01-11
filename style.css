@@ -175,14 +175,27 @@ h1 {
 
 .future-card {
   background-color: rgba(84, 143, 245, 0.25);
+  transition: all 1s;
+}
+.future-card:hover {
+  background-color: rgba(84, 218, 245, 0.25);
+  transition: all 1s;
 }
 
 .future-card1 {
   background-color: #C6E4D6;
 }
+.future-card1:hover {
+  background-color: rgba(148, 185, 123, 0.207);
+  transition: all 1s;
+}
 
 .future-card2 {
   background-color: #F7EBCF;
+}
+.future-card2:hover {
+  background-color: rgba(92, 92, 92, 0.207);
+  transition: all 1s;
 }
 
 .vison-span {
